@@ -21,6 +21,6 @@ jobs:
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Build
-      run: |
-        cd GitHubActions
-        xcodebuild build -project GitHubActions.xcodeproj -scheme GitHubActions clean build -sdk iphoneos CODE_SIGNING_ALLOWED=No
+        run: |
+          cd GitHubActions
+          xcodebuild build -project GitHubActions.xcodeproj -scheme GitHubActions clean build -sdk iphoneos CODE_SIGNING_ALLOWED=No
