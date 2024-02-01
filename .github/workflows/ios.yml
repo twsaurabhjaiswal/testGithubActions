@@ -22,4 +22,4 @@ jobs:
           echo Using default scheme: $default
       - name: Build
         run: |
-          xcodebuild build -project GitHubActions.xcodeproj -scheme GitHubActions clean build -sdk iphoneos CODE_SIGNING_ALLOWED=No
+          xcodebuild build -project testGithubActions.xcodeproj -scheme testGithubActions clean build -sdk iphoneos CODE_SIGNING_ALLOWED=No
